@@ -120,9 +120,9 @@ Sensores Físicos (Temp · Rad · Poeira)
 **ODS 9 - Indústria, Inovação e Infraestrutura (ONU, Agenda 2030)**
 
 - **`Autonomia operacional:`** sensor funciona sem uplink permanente
-- **Eficiência energética:** redução de ~95% no consumo de RF
-- **Infraestrutura resiliente:** operação em caso de falha do link Terra-Lua
-- **Transferência tecnológica:** arquitetura aplicável a estações remotas de monitoramento ambiental no Brasil
+- **`Eficiência energética:`** redução de ~95% no consumo de RF
+- **`Infraestrutura resiliente:`** operação em caso de falha do link Terra-Lua
+- **`Transferência tecnológica:`** arquitetura aplicável a estações remotas de monitoramento ambiental no Brasil
 
 ---
 
