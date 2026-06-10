@@ -1,11 +1,11 @@
-# 🛰️ NeuroSpace Alert
+#  NeuroSpace Alert
 
 > **Sensor Neuromórfico de Baixo Consumo para Ambientes Espaciais**  
 > Global Solution 2026 · FIAP · Cluster Computing, Computação Neuromórfica e Supercomputadores
 
 ---
 
-## 📋 Descrição do Projeto
+##  Descrição do Projeto
 
 O **NeuroSpace Alert** propõe e simula um sensor neuromórfico embarcado em um **Rover Lunar**, capaz de detectar condições críticas de operação (temperatura elevada, radiação ionizante e acúmulo de poeira) sem transmitir continuamente todos os dados brutos à Terra.
 
@@ -13,7 +13,7 @@ O sensor implementa um modelo **LIF (Leaky Integrate-and-Fire)** com **memristor
 
 ---
 
-## 🗂️ Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 neurospace-alert/
@@ -31,7 +31,7 @@ neurospace-alert/
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Acesse [Google Colab](https://colab.research.google.com)
 2. Faça upload do notebook `Colab_NeuroSpace_Alert.ipynb`
@@ -40,9 +40,9 @@ neurospace-alert/
 
 ---
 
-## ⚙️ Ajustes do Sensor Testados
+##  Ajustes do Sensor Testados
 
-| Parâmetro | Ajuste A — Sensível | Ajuste B — Equilibrado | Ajuste C — Conservador |
+| Parâmetro | Ajuste A - Sensível | Ajuste B - Equilibrado | Ajuste C - Conservador |
 |-----------|---------------------|------------------------|------------------------|
 | `V_limiar` | 24 V | 28 V | 32 V |
 | `taxa_chaveamento` | 0,007 | 0,005 | 0,003 |
@@ -50,7 +50,7 @@ neurospace-alert/
 | LED Vermelho | t = 185 min | t = 225 min | t = 295 min |
 | Lag vs. crítica real | −15 min (falso alerta) | +25 min (admissível) | +95 min (tardio) |
 
-### ✅ Ajuste Recomendado: **Ajuste B — Equilibrado**
+###  Ajuste Recomendado: **Ajuste B — Equilibrado**
 
 - `V_limiar = 28 V` · `taxa_chaveamento = 0.005`
 - **Zero falso-positivos** durante a fase de ATENÇÃO
@@ -59,7 +59,7 @@ neurospace-alert/
 
 ---
 
-## 🧠 Arquitetura Técnica
+##  Arquitetura Técnica
 
 ```
 Sensores Físicos (Temp · Rad · Poeira)
@@ -88,7 +88,7 @@ Sensores Físicos (Temp · Rad · Poeira)
 
 ---
 
-## 📊 Pipeline de Dados (Arquitetura Medallion)
+## Pipeline de Dados (Arquitetura Medallion)
 
 | Camada | Descrição |
 |--------|-----------|
@@ -99,7 +99,7 @@ Sensores Físicos (Temp · Rad · Poeira)
 
 ---
 
-## 🏗️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Uso |
 |------------|-----|
@@ -115,18 +115,18 @@ Sensores Físicos (Temp · Rad · Poeira)
 
 ---
 
-## 🎯 Conexão com ODS 9
+##  Conexão com ODS 9
 
-**ODS 9 — Indústria, Inovação e Infraestrutura (ONU, Agenda 2030)**
+**ODS 9 - Indústria, Inovação e Infraestrutura (ONU, Agenda 2030)**
 
-- **Autonomia operacional:** sensor funciona sem uplink permanente
+- **`Autonomia operacional:`** sensor funciona sem uplink permanente
 - **Eficiência energética:** redução de ~95% no consumo de RF
 - **Infraestrutura resiliente:** operação em caso de falha do link Terra-Lua
 - **Transferência tecnológica:** arquitetura aplicável a estações remotas de monitoramento ambiental no Brasil
 
 ---
 
-## 📚 Referências
+## Referências
 
 - STRUKOV, D. B. et al. *The missing memristor found*. Nature, v. 453, p. 80–83, 2008.
 - MEAD, C. *Neuromorphic electronic systems*. Proceedings of the IEEE, v. 78, n. 10, 1990.
@@ -135,12 +135,14 @@ Sensores Físicos (Temp · Rad · Poeira)
 
 ---
 
-## 👤 Integrantes
+## Integrantes
 
 | Nome | RM |
 |------|----|
-| Arthur Belo Santos | — |
-
+| Arthur Baptista dos Santos | 565346
+| João Pedro de Moura Dutra Franco | 561738
+| Nelson Félix Neto | 565603
+ 
 ---
 
 *FIAP — Global Solution 2026 · 1º Semestre*
