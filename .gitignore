@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+gerar_relatorio.js
+package*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+temp_doc.zip
+unpacked_docx/
+
+# Large originals (renamed copies kept)
+GS_1º_*
+telemetria_processada_Ajuste_B_equilibrado (2).csv

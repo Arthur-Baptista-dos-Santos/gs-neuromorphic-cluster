@@ -1,0 +1,80 @@
+{
+  "Ajuste_A_sensivel": {
+    "model_id": "6058db140d57",
+    "version": "2.0.0-enterprise",
+    "timestamp": "2026-06-10T00:46:09",
+    "parametros": {
+      "nome": "Ajuste_A_sensivel",
+      "V_limiar": 24,
+      "taxa_chaveamento": 0.007,
+      "perfil": "Sensível",
+      "cor": "#ff4444",
+      "limiar_estado_alerta": 0.65,
+      "limiar_estado_observacao": 0.35
+    },
+    "metricas": {
+      "Perfil": "Sensível",
+      "V_limiar": 24,
+      "Taxa Chaveamento": 0.007,
+      "T_Aviso (min)": 170,
+      "w_aviso": 0.4131,
+      "T_Alerta (min)": 185,
+      "w_alerta": 0.6922,
+      "Lag (min)": -15
+    },
+    "artefato": "saida_Ajuste_A_sensivel.csv",
+    "status": "ARCHIVED"
+  },
+  "Ajuste_B_equilibrado": {
+    "model_id": "8e6e10cf6684",
+    "version": "2.0.0-enterprise",
+    "timestamp": "2026-06-10T00:46:09",
+    "parametros": {
+      "nome": "Ajuste_B_equilibrado",
+      "V_limiar": 28,
+      "taxa_chaveamento": 0.005,
+      "perfil": "Equilibrado",
+      "cor": "#ffaa00",
+      "limiar_estado_alerta": 0.65,
+      "limiar_estado_observacao": 0.35
+    },
+    "metricas": {
+      "Perfil": "Equilibrado",
+      "V_limiar": 28,
+      "Taxa Chaveamento": 0.005,
+      "T_Aviso (min)": 205,
+      "w_aviso": 0.4158,
+      "T_Alerta (min)": 225,
+      "w_alerta": 0.695,
+      "Lag (min)": 25
+    },
+    "artefato": "saida_Ajuste_B_equilibrado.csv",
+    "status": "PRODUCTION"
+  },
+  "Ajuste_C_conservador": {
+    "model_id": "9f52b5841d7a",
+    "version": "2.0.0-enterprise",
+    "timestamp": "2026-06-10T00:46:09",
+    "parametros": {
+      "nome": "Ajuste_C_conservador",
+      "V_limiar": 32,
+      "taxa_chaveamento": 0.003,
+      "perfil": "Conservador",
+      "cor": "#44aaff",
+      "limiar_estado_alerta": 0.65,
+      "limiar_estado_observacao": 0.35
+    },
+    "metricas": {
+      "Perfil": "Conservador",
+      "V_limiar": 32,
+      "Taxa Chaveamento": 0.003,
+      "T_Aviso (min)": 255,
+      "w_aviso": 0.3704,
+      "T_Alerta (min)": 295,
+      "w_alerta": 0.6569,
+      "Lag (min)": 95
+    },
+    "artefato": "saida_Ajuste_C_conservador.csv",
+    "status": "ARCHIVED"
+  }
+}
