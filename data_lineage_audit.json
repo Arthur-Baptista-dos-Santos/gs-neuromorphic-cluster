@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2026-06-10T00:45:20",
+    "layer": "RAW → BRONZE",
+    "description": "CSV carregado e validado: dataset_neurosensor_espacial_5h.csv",
+    "rows": 61,
+    "cols": 8,
+    "checksum": "88f15cd4e24ecdf5",
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:20",
+    "layer": "EDA",
+    "description": "Análise exploratória concluída",
+    "rows": 61,
+    "cols": 8,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_A_sensivel",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_B_equilibrado",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_C_conservador",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_A_sensivel",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_B_equilibrado",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:45:24",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_C_conservador",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:46:06",
+    "layer": "SHAP_ANALYSIS",
+    "description": "Explainability: SHAP=True",
+    "rows": 61,
+    "cols": 5,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  },
+  {
+    "timestamp": "2026-06-10T00:46:09",
+    "layer": "SILVER → GOLD",
+    "description": "Simulação Ajuste_B_equilibrado",
+    "rows": 61,
+    "cols": 12,
+    "checksum": null,
+    "pipeline_version": "2.0.0-enterprise"
+  }
+]
